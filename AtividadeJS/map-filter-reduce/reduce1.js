@@ -1,10 +1,12 @@
 var valor1 = [
 	{preco:30,
-	nome:camisa},
+	nome:"camisa"},
 	{preco:41,
-	nome:calca},
+	nome:"calca"},
 	{preco:55,
-	nome:sapato}
+	nome:"sapato"}
 ];
 
+var respostas = valor1.reduce(function(previousValue,currentValue){ return previousValue + currentValue.preco},0);
 
+console.log(respostas)
