@@ -1,4 +1,4 @@
-import {mostraHobby,mostraIdade,mostraCidade} from "./funcoes.mjs";
+import {mostraHobby,mostraIdade,mostraCidade} from "./funcoes.js";
 
 console.log(mostraIdade("Icaro", 31));
 console.log(mostraCidade("Icaro", "São Paulo"));
